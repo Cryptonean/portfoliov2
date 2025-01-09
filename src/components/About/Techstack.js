@@ -10,6 +10,9 @@ import {
   DiGit,
   DiJava,
   DiHaskell,
+  DiHtml5,
+  DiCss3,
+  DiMysql,
 } from "react-icons/di";
 import {
   SiRedis,
@@ -30,7 +33,7 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiPython />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
@@ -45,10 +48,19 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
       </Col>
     </Row>
   );
