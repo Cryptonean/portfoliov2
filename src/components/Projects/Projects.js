@@ -32,7 +32,7 @@ function Projects() {
               description="Karbon Ledger is a decentralized blockchain-based platform that enables transparent, secure, and efficient management of carbon credits and sustainability efforts.."
               ghLink="https://github.com/KonmaORG/Karbon-Ledger"
               demoLink="https://karbonledger.vercel.app/"
-              technologies={["Aiken", "JavaScript", "Aiken", "JavaScript"]}
+              technologies={["Aiken", "Next", "Cardano", "Lucid", "React"]}
             />
           </Col>
 
@@ -44,6 +44,7 @@ function Projects() {
               description="Talendro is a decentralized freelance platform built on Cardano that uses smart contracts for secure payments, reputation staking, and decentralized dispute resolution."
               ghLink="https://github.com/TALENDRO/Talendro"
               demoLink="https://talendro.netlify.app/"
+              technologies={["Aiken", "Lucid", "Cardano", "Next", "React"]}
             />
           </Col>
 
@@ -55,6 +56,7 @@ function Projects() {
               description="An advanced recruitment system built with React and Node.js. The HirEx utilizes artificial intelligence and computer vision technologies to automate candidate assessments and improve the hiring process."
               ghLink="https://Cryptonean"
               demoLink="https://hirex.onrender.com/"
+              technologies={["AWS", "Node", "React", "MongoDB"]}
             />
           </Col>
 
