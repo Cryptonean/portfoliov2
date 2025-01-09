@@ -33,6 +33,30 @@ function ProjectCards(props) {
             {"Demo"}
           </Button>
         )}
+
+        {/* Technologies Used Section */}
+        {props.technologies && props.technologies.length > 0 && (
+          <div style={{ marginTop: "15px", display: "flex", flexWrap: "wrap" }}>
+            <div style={{ flex: "1 1 50%", textAlign: "left" }}>
+              {props.technologies
+                .slice(0, Math.ceil(props.technologies.length / 2))
+                .map((tech, index) => (
+                  <div key={index} style={{ marginBottom: "5px" }}>
+                    {tech}
+                  </div>
+                ))}
+            </div>
+            <div style={{ flex: "1 1 50%", textAlign: "left" }}>
+              {props.technologies
+                .slice(Math.ceil(props.technologies.length / 2))
+                .map((tech, index) => (
+                  <div key={index} style={{ marginBottom: "5px" }}>
+                    {tech}
+                  </div>
+                ))}
+            </div>
+          </div>
+        )}
       </Card.Body>
     </Card>
   );
