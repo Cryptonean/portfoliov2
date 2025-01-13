@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { FaArrowRight } from "react-icons/fa";
 
 function AboutCard() {
   return (
@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Faizan Shaikh </span>
             from <span className="purple">Pune, India.</span>
             <br />
-            I am currently a blockchain developer and a core contributor at
+            I am currently a blockchain developer and a Technical Writer at
             Cardano SPOT.
             <br />
             I am an object-oriented programmer, functional programmer, and
@@ -23,12 +23,13 @@ function AboutCard() {
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <FaArrowRight />
+              Writing Tech Blogs
             </li>
 
             <li className="about-activity">
-              <ImPointRight /> Exploring decentralized governance and
-              innovations
+              <FaArrowRight />
+              Exploring decentralized governance and innovations
             </li>
           </ul>
         </blockquote>
