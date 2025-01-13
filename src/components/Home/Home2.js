@@ -30,8 +30,8 @@ function Home2() {
               <br />
               My field of interest lies in building new &nbsp;
               <i>
-                <b className="purple">Blockchain technologies</b> and also in
-                areas related to{" "}
+                <b className="purple">Blockchain Solutions</b> and also in areas
+                related to{" "}
                 <b className="purple">Decentralization and Smart Contracts.</b>
               </i>
               <br />
